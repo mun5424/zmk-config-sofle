@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: infused-kim
-      url-base: https://github.com/infused-kim
+    - name: mun5424
+      url-base: https://github.com/mun5424
   projects:
     - name: zmk
-      remote: infused-kim
+      remote: mun5424
       revision: sofle
       import: app/west.yml
   self:
