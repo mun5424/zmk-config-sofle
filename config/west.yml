@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: mun5424
-      url-base: https://github.com/mun5424
+    - name: mun5424-zmk
+      url-base: https://github.com/mun5424-zmk
   projects:
     - name: zmk
-      remote: mun5424
-      revision: main
+      remote: mun5424-zmk
+      revision: sofle
       import: app/west.yml
   self:
     path: config
